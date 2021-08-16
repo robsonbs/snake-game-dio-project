@@ -1,0 +1,27 @@
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+body {
+  height         : 95vh;
+  width          : 95%;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+}
+
+h1 {
+  color         : rgb(44, 193, 44);
+  text-transform: uppercase;
+}
+
+canvas {
+  height         : 512px;
+  width          : 512px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+}
